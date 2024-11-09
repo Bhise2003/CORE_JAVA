@@ -45,7 +45,7 @@ public class Album {
         System.out.println("this album does not have song with tracknumber " +trackNumber);
         return false;
     }
-
+// adding new
     public boolean addToPlaylist(String title, LinkedList<Song> Playlist) {
         for (Song checkedSong : this.songs) {
             if (checkedSong.getTitle().equals(title)) {
